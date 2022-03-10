@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ribeye', cursive;
+}
+
+body {
+    background: url('assets/background.png');
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 65%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #BE7939;
+    max-width: 25rem;
+    background-color: #F9E2CD;
+    margin: 2.7rem auto 1rem auto;
+    padding: 0;
+}
+
+.flexbox-container {
+    display: flex;
+    padding: 16px;
+    justify-content: space-around; /*horizontal alignment*/
+    flex-wrap: wrap;
+}
+
+#flexbox-img-container img {
+    margin: 15px;
+    box-shadow: 5px 10px 18px #9b6d42;
+}
+
+.btn {
+    height: 3.2rem;
+    width: 13rem;
+    background-color: #BE7939;
+    color: #F9E2CD;
+    outline: #BE7939;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 23px rgba(190, 121, 57, 0.25);
+}
+
+.btn:hover {
+    background-color: #cf8036;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 0.4rem 0.4rem;
+}
+
+#pawPrintIcon {
+    margin: 0;
+    padding: 0.4rem 0.4rem 0.4rem 0;
+}
+
+@media (max-width: 30em) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+}
+
